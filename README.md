@@ -13,6 +13,8 @@ Except for at the start of the battle, whenever one player sends out a new pokem
 
 We can sort the switch in statistics both _by subject_ and _by object_. Given a particular pokemon X, the statistics sorted _by subject_ tell you the most common pokemon that pokemon X **switches into**. Similarly, given a particular pokemon X, the statistics sorted _by object_ tell you the most common pokemon who **switch into** pokemon X.
 
+### Interpretation example
+
 Here is an example of how to interpret this data. This is an excerpt from the statistics sorted by subject showing you the most common pokemon that Gyarados switches into on the Standard ladder:
 
 1. Scizor - 7.12% (12166)
