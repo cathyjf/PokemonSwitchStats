@@ -5,6 +5,8 @@ statistics regarding Pok&eacute;mon switching. This program was written by
 [Cathy Fitzpatrick][cathyjf] in September 2009 and it is licensed under the
 [GNU Affero General Public License][agpl3], version 3 or later.
 
+The `logs` directory contains several sample logs to run the program on.
+
 ## Definitions
 
 In order to understand the statistics, it is necessary to define some terms.
