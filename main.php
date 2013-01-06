@@ -1,6 +1,6 @@
 <?php
 /**
- * ShoddySticks: An IRC bot that implements a variant of the game of Nim.
+ * A program that prepares statistics regarding Pokemon switching.
  * Copyright (C) 2009  Cathy Fitzpatrick <cathy@cathyjf.com>
  *
  * This program is free software: you can redistribute it and/or modify
