@@ -26,7 +26,7 @@ function tidyCode($code) {
         2 => array('pipe', 'r')
     );
     $pipes = array();
-    $proc = proc_open(dirname(__FILE__) . '/tidy -i -c -asxml -q -w 255 --indent-spaces 3 --alt-text "Image"', $specs, $pipes);
+    $proc = proc_open('tidy -i -c -asxml -q -w 255 --indent-spaces 3 --alt-text "Image"', $specs, $pipes);
     if (!is_resource($proc)) {
         return $code;
     }
@@ -40,8 +40,6 @@ function tidyCode($code) {
     fclose($pipes[2]);
     proc_close($proc);
     if ($ret == '') return $code;
-    // Remove unwanted <meta> tag.
-    $ret = str_replace("\n   <meta name=\"generator\" content=\"HTML Tidy for Linux/x86 (vers 1 July 2005), see www.w3.org\" />\n", '', $ret);
     return $ret;
 }
 
